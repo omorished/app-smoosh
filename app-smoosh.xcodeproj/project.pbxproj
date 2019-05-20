@@ -15,6 +15,7 @@
 		4C216309228E6AEA00CF0DF1 /* ButtonBoarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C216308228E6AEA00CF0DF1 /* ButtonBoarder.swift */; };
 		4C227E6722924AF200655107 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C227E6622924AF100655107 /* LeagueVC.swift */; };
 		4C227E6922924B1600655107 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C227E6822924B1600655107 /* SkillVC.swift */; };
+		4C227E6C229303AE00655107 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C227E6B229303AE00655107 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4C216308228E6AEA00CF0DF1 /* ButtonBoarder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBoarder.swift; sourceTree = "<group>"; };
 		4C227E6622924AF100655107 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		4C227E6822924B1600655107 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		4C227E6B229303AE00655107 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,10 @@
 		4C2162F4228E611000CF0DF1 /* app-smoosh */ = {
 			isa = PBXGroup;
 			children = (
+				4C227E6522924A8900655107 /* Model */,
 				4C216307228E6AC700CF0DF1 /* View */,
 				4C227E6422924A7B00655107 /* Controller */,
-				4C227E6522924A8900655107 /* Model */,
-				4C2162F5228E611000CF0DF1 /* AppDelegate.swift */,
-				4C2162FE228E611200CF0DF1 /* LaunchScreen.storyboard */,
-				4C2162FC228E611200CF0DF1 /* Assets.xcassets */,
+				4C227E6A2293026100655107 /* Support */,
 				4C216301228E611200CF0DF1 /* Info.plist */,
 			);
 			path = "app-smoosh";
@@ -93,8 +93,19 @@
 			isa = PBXGroup;
 			children = (
 				4C216308228E6AEA00CF0DF1 /* ButtonBoarder.swift */,
+				4C227E6B229303AE00655107 /* Player.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4C227E6A2293026100655107 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4C2162F5228E611000CF0DF1 /* AppDelegate.swift */,
+				4C2162FE228E611200CF0DF1 /* LaunchScreen.storyboard */,
+				4C2162FC228E611200CF0DF1 /* Assets.xcassets */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 				4C2162F6228E611000CF0DF1 /* AppDelegate.swift in Sources */,
 				4C227E6722924AF200655107 /* LeagueVC.swift in Sources */,
 				4C227E6922924B1600655107 /* SkillVC.swift in Sources */,
+				4C227E6C229303AE00655107 /* Player.swift in Sources */,
 				4C216309228E6AEA00CF0DF1 /* ButtonBoarder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

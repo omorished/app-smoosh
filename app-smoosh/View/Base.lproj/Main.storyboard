@@ -142,6 +142,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="MensBtnClicked:" destination="kxn-EE-FoS" eventType="touchUpInside" id="zEd-gB-toC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xD-e0-4N8" customClass="ButtonBoarder" customModule="app_smoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="99.999999999999972" width="343" height="70"/>
@@ -153,6 +156,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="WomensBtnClicked:" destination="kxn-EE-FoS" eventType="touchUpInside" id="CR1-z2-EO1"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nZ-0x-iFa" customClass="ButtonBoarder" customModule="app_smoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="199.99999999999997" width="343" height="70.000000000000028"/>
@@ -164,6 +170,9 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="CoedBtnClicked:" destination="kxn-EE-FoS" eventType="touchUpInside" id="dZy-KA-ELJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -220,6 +229,7 @@
                         <viewLayoutGuide key="safeArea" id="aUU-gt-JBB"/>
                     </view>
                     <connections>
+                        <outlet property="nextBtn" destination="WCH-Qu-0bX" id="xFf-Er-gv6"/>
                         <segue destination="idw-yU-mx5" kind="show" identifier="goToSkillSegue" id="sxi-dj-21v"/>
                     </connections>
                 </viewController>
